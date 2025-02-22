@@ -63,7 +63,7 @@ function App() {
       // Prepare questions
       const promptQuestions = [];
       if (questions.concentration) {
-        promptQuestions.push('Calculate all financial ratios that are possible from the provided data.');
+        promptQuestions.push('Calculate all financial ratios that are possible from the provided data. Present the results as a table.');
       }
 
       const analysisResult = await analyzeReport(
