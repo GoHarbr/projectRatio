@@ -1,6 +1,7 @@
 import { AIModel } from '../types';
 
 export const AI_MODELS: AIModel[] = [
+  { id: 'gpt-4o-mini', name: 'GPT-4o Mini', provider: 'openai' },
   { id: 'o1-mini', name: 'o1 Mini', provider: 'openai' },
   { id: 'o3-mini', name: 'o3 Mini', provider: 'openai' },
   { id: 'gpt-4-turbo-preview', name: 'GPT-4 Turbo', provider: 'openai' },
